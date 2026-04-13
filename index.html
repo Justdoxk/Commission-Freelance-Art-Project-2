@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio BeeplCrab</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <!-- Card verticale BeeplCrab -->
+  <article class="card main-card" onclick="openModal(this)" 
+           data-modal-text="C'est qui lui ?
+
+
+Mike Winkelmann, plus connu sous le pseudonyme Beeple (ou parfois Beeple Crap), est un artiste numérique, et un graphiste originaire de Charleston, en Caroline du Sud (États-Unis), qui réalise diverses œuvres numériques, notamment des courts métrages, des boucles VJ sous licence Creative Commons, des créations « everyday » et des projets VR/AR. Né le 20 juin 1981 Il est diplômé de l'université Purdue où il étudie l'informatique, et il se tourne ensuite vers le design graphique et la création numérique. 
+
+Beeple commence très tôt à créer des œuvres digitales, mais c'est à partir de mai 2007 qu'il se lance dans un projet qui marquera sa carrière : il décide de produire une image numérique par jour, sans interruption. Ce défi, qu'il nomme Everydays, devient une sorte de rituel quotidien qui lui permet d'expérimenter différents styles, techniques et commentaires sur la société moderne. Il crée et publie quotidiennement une image 3D, de la conception à la réalisation, depuis plus de dix ans sans interruption.
+
+Après avoir publié une série de boucles VJ sous licence Creative Commons largement utilisées, il a travaillé sur les visuels de concerts d'artistes tels que Justin Bieber, One Direction, Katy Perry, Nicki Minaj, Eminem, Zedd et deadmau5.">
+    <img src="img/beeple.jpg" alt="BeeplCrab">
+    <h2>BeeplCrab</h2>
+    <p>Qui c'est lui ? Petit résumé de sa vie et de son travail.</p>
+  </article>
+
+  <!-- Grid 2x2 de grosses cards rectangulaires -->
+  <section class="cards-grid">
+    <article class="card green" onclick="openModal(this)" 
+             data-modal-text="L'univers artistique
+
+
+L'art de Beeple est souvent décrit comme imaginatif, dystopique, satirique et fortement influencé par la culture populaire. Ses visuels font souvent allusion à des thèmes sociaux et politiques contemporains en utilisant des images surréalistes ou provocantes. Il mêle technologie, société, science-fiction et humour, créant des œuvres qui suscitent à la fois fascination et réflexion. 
+
+Sa popularité ne se limite pas aux seules plateformes numériques : il collabore aussi avec des célébrités, des marques et des événements culturels. Par exemple, certaines de ses créations ont été intégrées dans des visuels de concerts ou des collections de mode.">
+      <div class="text">
+        <h2>L'univers artistique</h2>
+        <p>Beeple : dystopie, pop culture et humour au service de l'art numérique.</p>
+      </div>
+      <div class="img-container">
+        <img src="img/shrek.jpg" alt="Vie Personnelle">
+      </div>
+    </article>
+
+    <article class="card white" onclick="openModal(this)" 
+             data-modal-text="Sources
+
+
+Biographie et carrière de Mike Winkelmann (Beeple) — Wikipedia EN & FR.
+Vente record de Everydays: The First 5000 Days — Christie's & Les Numériques.
+Approche artistique et collaborations — Masterworks & Rise Art.
+Débats autour des NFT et leur évolution — Journal du Token & CNBC. 
+Site officiel de Beeple">
+      <div class="text">
+        <h2>Sources</h2>
+        <p>Éventail des ressources utilisées</p>
+      </div>
+      <div class="img-container">
+        <img src="img/eth.jpg" alt="Éducation">
+      </div>
+    </article>
+
+    <article class="card yellow" onclick="openModal(this)" 
+             data-modal-text="Les NFT
+
+
+Ce qui distingue vraiment Beeple dans l'histoire de l'art moderne, c'est sa relation avec les NFT, ces œuvres numériques authentifiées par une blockchain. En octobre 2020, il vend son premier NFT sur la plateforme Nifty Gateway, marquant le début d'une série de ventes remarquables. 
+
+Une de ses premières pièces importantes est Crossroad, une animation courte dont l'apparence change selon des événements politiques, qui a été vendue pour plus de 6,6 millions de dollars. 
+
+Everydays: The First 5000 Days
+
+Le moment le plus symbolique de sa carrière arrive en mars 2021, lorsqu'une œuvre majeure de sa série Everydays est vendue chez Christie's pour 69,3 millions de dollars, un record pour un NFT à ce jour. Cette œuvre, intitulée Everydays: The First 5000 Days, est un collage de 5000 images créées quotidiennement depuis 2007, et elle devient le premier NFT vendu par une grande maison de vente aux enchères traditionnelle. 
+
+La vente de cette œuvre n'a pas seulement battu des records monétaires, elle a fait entrer l'art numérique dans les institutions historiques du marché de l'art et a popularisé les NFT auprès du grand public.">
+      <div class="text">
+        <h2>Les NFT</h2>
+        <p>NFT et blockchain : Beeple change à jamais le marché de l'art.</p>
+      </div>
+      <div class="img-container">
+        <img src="img/feu.jpg" alt="Travail">
+      </div>
+    </article>
+
+    <article class="card pink" onclick="openModal(this)" 
+             data-modal-text="Impact et apport artistique
+
+L'impact de Beeple ne se limite pas à ses propres ventes. Son succès a :
+
+Légitimé les NFT comme un nouveau médium artistique, en montrant qu'une œuvre numérique peut atteindre des valeurs comparables à celles de l'art traditionnel.
+Ouvert le marché des crypto-artistes, en inspirant de nombreux créateurs à publier et vendre leurs œuvres sous forme de NFT.
+Montré que l'authenticité numérique a de la valeur, grâce à la technologie blockchain qui permet d'enregistrer la propriété et l'historique des transactions.
+
+
+Même si certains critiques considèrent que le marché des NFT peut être une bulle spéculative, Beeple lui-même a reconnu que ce phénomène pourrait être temporaire, mais il voit aussi un futur durable pour cette technologie, notamment pour sécuriser la propriété numérique dans de nombreux domaines.">
+      <div class="text">
+        <h2>Impact et apport artistique</h2>
+        <p>Beeple et l'art numérique : quand les NFT légitiment une nouvelle forme de création.</p>
+      </div>
+      <div class="img-container">
+        <img src="img/whale.png" alt="Loisirs">
+      </div>
+    </article>
+  </section>
+</div>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-text"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
